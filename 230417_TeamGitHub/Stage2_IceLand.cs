@@ -52,7 +52,11 @@ namespace _230417_TeamGitHub
 
     public class IceLand_BossRoom : Stage2_IceLand
     {
-
+        // 배경 이미지 적용
+        // 방 크기
+        // 얼음땅 구현(부서지는 땅 및 괜찮은땅)
+        // 얼음 미끌거림 기능
+        // 보스몬스터 위치 선정
     }
 
 }
