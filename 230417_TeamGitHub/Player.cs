@@ -17,15 +17,18 @@ namespace _230417_TeamGitHub
 
         public Player(string name, int hp, int ap, int mp)
         {
-            this.name = name;
+            this.name = name;    
             this.hp = hp;
             this.ap = ap;
             this.mp = mp;
         }
         public void TrueDamage(int damage)
         {
-            hp -= damage;
             Console.WriteLine($"{name}가 {damage}의 피해를 받았다.");
+        }
+        public void Attack(int damage)
+        {
+            Console.WriteLine($"{name}가 {damage}의 피해를 입혔다");
         }
 
     }
