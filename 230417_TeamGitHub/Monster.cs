@@ -27,18 +27,17 @@ namespace _230417_TeamGitHub
     {
         // 슬라임 구현
     }
-
-    public class Orc : Monster 
+    public class Orc : Monster
     {
         // 초록색 오크
     }
 
-    public class Goblin : Monster 
+    public class Goblin : Monster
     {
         // 더 초록색 고블린
     }
 
-    public class Zombie : Monster 
+    public class Zombie : Monster
     {
         // 좀비같이 생긴 좀비
     }
@@ -48,6 +47,22 @@ namespace _230417_TeamGitHub
         public virtual void Skill()
         {
             // 스킬을 쓴다. 오버라이딩 해서 무슨 스킬일지 정한다.
+        }
+    }
+    public class EliteOrc : EliteMonster
+    {
+        // 더 강한 오크. 근육이 늘었다. 그뉵그뉵.
+        public override void Skill()
+        {
+            // 분노분노분노하는 스킬
+        }
+    }
+    public class EliteZombie : EliteMonster
+    {
+        // 더 강한 좀비. 물리면 디버프에 걸린다.
+        public override void Skill()
+        {
+            // 이 좀비는 무해하지 않고 물지 않지 않습니다.
         }
     }
 }
