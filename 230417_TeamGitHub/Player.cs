@@ -46,7 +46,7 @@ namespace _230417_TeamGitHub
 
         }
 
-        /*public void WeaponEquip(Weapon weapon)
+        public void WeaponEquip(Weapon weapon)
         {
             Console.WriteLine($"플레이어가 {weapon}를 장착.");
             this.weapon = weapon;
@@ -60,6 +60,6 @@ namespace _230417_TeamGitHub
             ap -= weapon;
         }
         // 플레이어가 무기를 해제.
-        */
+        
     }
 }
