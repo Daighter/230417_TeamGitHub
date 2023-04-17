@@ -16,7 +16,7 @@ namespace _230417_TeamGitHub
 
     }
 
-    public class Forest_Room1 : Stage1_Forest
+    public class Forest_BasicRoom1 : Stage1_Forest
     {
         // 풀 관련 구조물 구현(배경 및 파괴 상호작용)
         // 기믹 구조물 구현(함정, 퍼즐)
@@ -24,7 +24,7 @@ namespace _230417_TeamGitHub
         // 방 크기
     }
 
-    public class Forest_Room2 : Stage1_Forest
+    public class Forest_BuildingRoom2 : Stage1_Forest
     {
         // 배경 이미지 적용
         // 방 크기
@@ -34,7 +34,7 @@ namespace _230417_TeamGitHub
         // 상점, 강화, 스킬 등 건물 위치
     }
 
-    public class Forest_Room3 : Stage1_Forest
+    public class Forest_JumpRoom3 : Stage1_Forest
     {
         // 배경 이미지 적용
         // 방 크기
