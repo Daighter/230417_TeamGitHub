@@ -51,6 +51,6 @@ namespace _230417_TeamGitHub
             this.weapon = weapon;
             ap -= weapon;
         }
-        // 플레이어가 무기를 해제
+        // 플레이어가 무기를 해제.
     }
 }
