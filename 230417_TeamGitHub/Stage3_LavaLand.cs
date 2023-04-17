@@ -28,5 +28,14 @@ namespace _230417_TeamGitHub
         // 용암석 구조물(파괴가능, 불가능)
     }
 
+    public class LavaLand_BuildingRoom1 : Stage3_LavaLand
+    {
+        // 배경 이미지 적용
+        // 방 크기
+        // 건물 위치 선정
+        // 땅 구현
+        // NPC 위치 선정
+    }
+
 
 }
