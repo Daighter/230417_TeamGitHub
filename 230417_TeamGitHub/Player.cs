@@ -24,11 +24,16 @@ namespace _230417_TeamGitHub
         }
         public void TrueDamage(int damage)
         {
+            hp -= damage;
             Console.WriteLine($"{name}가 {damage}의 피해를 받았다.");
         }
         public void Attack(int damage)
         {
             Console.WriteLine($"{name}가 {damage}의 피해를 입혔다");
+        }
+        public void Move()
+        {
+            Console.WriteLine($"{name}가 이동합니다.");
         }
 
     }
