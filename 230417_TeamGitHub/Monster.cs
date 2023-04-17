@@ -22,4 +22,9 @@ namespace _230417_TeamGitHub
             hp -= damage;
         }
     }
+
+    public class Slime : Monster
+    {
+        // 슬라임 구현
+    }
 }
