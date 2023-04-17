@@ -42,4 +42,12 @@ namespace _230417_TeamGitHub
     {
         // 좀비같이 생긴 좀비
     }
+    public class EliteMonster : Monster
+    {
+        // 해당 클래스를 상속한 몬스터는 더 강려크해진다
+        public virtual void Skill()
+        {
+            // 스킬을 쓴다. 오버라이딩 해서 무슨 스킬일지 정한다.
+        }
+    }
 }
