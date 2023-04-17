@@ -15,11 +15,13 @@ namespace _230417_TeamGitHub
         public int mp;
         public int dp;
 
-        public Player(string name, int hp, int ap)
+        public Player(string name, int hp, int ap, int mp,int dp)
         {
             this.name = name;
             this.hp = hp;
             this.ap = ap;
+            this.mp = mp;
+            this.dp = dp;
         }
         public void TrueDamage(int damage)
         {
@@ -37,6 +39,12 @@ namespace _230417_TeamGitHub
             Console.WriteLine($"{name}가 이동합니다.");
         }
         // 플레이어의 이동
+        public void MagicAttack(int damage)
+        {
+            hp -= (damage + mp);
+            Console.WriteLine($"{name}가 {(damage+mp)}의 마법 피해를 입혔다");
+
+        }
 
         public void WeaponEquip(Weapon weapon)
         {
@@ -51,6 +59,7 @@ namespace _230417_TeamGitHub
             this.weapon = weapon;
             ap -= weapon;
         }
-        // 플레이어가 무기를 해제.
+        // 플레이어가 무기를 해제
+        
     }
 }
