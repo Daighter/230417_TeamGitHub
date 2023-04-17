@@ -12,5 +12,14 @@ namespace _230417_TeamGitHub
         protected string name;
         protected int hp;
         protected int atk;
+        public void Attack(int atk)
+        {
+            // 몬스터가 공격한다
+        }
+        public void TakeDamage(int damage)
+        {
+            // 몬스터가 데미지를 받는다
+            hp -= damage;
+        }
     }
 }
