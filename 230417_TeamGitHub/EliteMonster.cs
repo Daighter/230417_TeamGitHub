@@ -56,4 +56,13 @@ namespace _230417_TeamGitHub
             // 그래서 스킬이 뭐냐고요? 하수인 소환입니다~ ^^7
         }
     }
+    public class EarthElemental : EliteMonster
+    {
+        // 지정령. 튼튼하다. 골렘처럼 생겼다.
+        public override void Skill()
+        {
+            // 땅속으로 숨을 수 있다. 두더지처럼 튀어나온다고 무시하는건 좋은 생각이 아니다.
+            // 이게 두더지가 아니라 신장 5미터의 거대 골렘이라는걸 기억하자.
+        }
+    }
 }
