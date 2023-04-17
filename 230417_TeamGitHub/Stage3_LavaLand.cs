@@ -6,19 +6,23 @@ using System.Threading.Tasks;
 
 namespace _230417_TeamGitHub
 {
-    public class Stage1_Forest
+    public class Stage3_LavaLand
     {
         // 배경 이미지 적용
         // 방 크기
         // 건물 위치
-        // 풀 관련 구조물 구현(배경 및 파괴 상호작용)_(추상)
+        // NPC 위치 
+        // 땅 구현
+        // 용암땅 구현(화상상태이상 기능)
+        // 용암 구현(빠지면 지속데미지+화상상태이상)
+        // 용암석 구조물(파괴가능, 불가능)
         // 기믹 구조물 구현(함정, 퍼즐)_(추상)
         // 보물상자 구성(아이템과 연결)
         // 점프발판 구성
         // 워프구조물 구현
         // 맵이동 구조물 구현
-        public virtual  void Destruction() 
-        { 
+        public virtual void Destruction()
+        {
             // 파괴 기능 구현
         }
         public virtual void Damage()
@@ -49,14 +53,15 @@ namespace _230417_TeamGitHub
         {
             // 맵과맵 및 다음 스테이지 이동관련 기능
         }
-
     }
 
-    public class Forest_BasicRoom1 : Stage1_Forest
+    public class LavaLand_BasicRoom1 : Stage3_LavaLand
     {
         // 배경 이미지 적용
         // 방 크기
-        // 풀 관련 구조물 구현(배경 및 파괴 상호작용)
+        // 땅 구현
+        // 용암땅(화상상태이상)
+        // 용암석 구조물(파괴가능, 불가능)
         // 보물상자 위치 선정(아이템과 연결)
         // 워프석 위치 선정
         // 맵이동 구조물 구현
@@ -78,14 +83,13 @@ namespace _230417_TeamGitHub
         }
     }
 
-    public class Forest_BuildingRoom2 : Stage1_Forest
+    public class LavaLand_BuildingRoom1 : Stage3_LavaLand
     {
         // 배경 이미지 적용
         // 방 크기
-        // 풀 관련 구조물 구현(배경 및 파괴 상호작용)
-        // 기믹 구조물 구현(함정, 퍼즐)
-        // NPC 위치 고정
-        // 상점, 강화, 스킬 등 건물 위치
+        // 건물 위치 선정
+        // 땅 구현
+        // NPC 위치 선정
         // 워프석 위치 선정
         // 맵이동 구조물 구현
         public void Warp()
@@ -98,12 +102,13 @@ namespace _230417_TeamGitHub
         }
     }
 
-    public class Forest_JumpRoom3 : Stage1_Forest
+    public class LavaLand_JumpRoom3 : Stage3_LavaLand
     {
         // 배경 이미지 적용
         // 방 크기
-        // 풀 관련 구조물 구현(배경 및 파괴 상호작용)
-        // 기믹 구조물 구현(함정, 퍼즐)
+        // 용암땅(화상상태이상 기능)
+        // 용암(빠지면 지속데미지+화상상태이상)
+        // 기믹 구조물(함정, 퍼즐)
         // 점프발판
         public void Bounce()
         {
@@ -113,14 +118,17 @@ namespace _230417_TeamGitHub
         {
             // 맵과맵 및 다음 스테이지 이동관련 기능
         }
+
     }
 
-    public class Forest_BossRoom : Stage1_Forest
+    public class LavaLand_BossRoom : Stage3_LavaLand
     {
         // 배경 이미지 적용
         // 방 크기
-        // 풀 관련 구조물 구현(배경 및 파괴 상호작용)
-        // 보스 리젠 위치 선정
+        // 용암땅(화상상태이상 기능)
+        // 용암(빠지면 지속데미지+화상상태이상)
+        // 기믹 구조물(종유석 떨어짐)
+        // 보스몬스터 위치 선정
         // 스페이지 이동
         public override void MapMove()
         {
