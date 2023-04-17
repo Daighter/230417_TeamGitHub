@@ -43,4 +43,12 @@ namespace _230417_TeamGitHub
         // 점프맵 구현
     }
 
+    public class Forest_BossRoom : Stage1_Forest
+    {
+        // 배경 이미지 적용
+        // 방 크기
+        // 풀 관련 구조물 구현(배경 및 파괴 상호작용)
+        // 보스 리젠 위치 선정
+    }
+
 }
