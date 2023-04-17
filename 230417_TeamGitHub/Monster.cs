@@ -27,4 +27,19 @@ namespace _230417_TeamGitHub
     {
         // 슬라임 구현
     }
+
+    public class Orc : Monster 
+    {
+        // 초록색 오크
+    }
+
+    public class Goblin : Monster 
+    {
+        // 더 초록색 고블린
+    }
+
+    public class Zombie : Monster 
+    {
+        // 좀비같이 생긴 좀비
+    }
 }
