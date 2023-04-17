@@ -44,7 +44,7 @@ namespace _230417_TeamGitHub
         // 용암땅(화상상태이상 기능)
         // 용암(빠지면 지속데미지+화상상태이상)
         // 기믹 구조물(함정, 퍼즐)
-        // 점프발탄 추가
+        // 점프발판 추가
     }
 
     public class LavaLand_BossRoom : Stage3_LavaLand
