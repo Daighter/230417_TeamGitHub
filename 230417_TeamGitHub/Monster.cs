@@ -41,28 +41,19 @@ namespace _230417_TeamGitHub
     {
         // 좀비같이 생긴 좀비
     }
-    public class EliteMonster : Monster
+
+    public class GoldenGoblin : Goblin
     {
-        // 해당 클래스를 상속한 몬스터는 더 강려크해진다
-        public virtual void Skill()
-        {
-            // 스킬을 쓴다. 오버라이딩 해서 무슨 스킬일지 정한다.
-        }
+        // 황금 고블린이다. 죽이면 좋은 템을 드랍한다.
     }
-    public class EliteOrc : EliteMonster
+
+    public class Bat : Monster
     {
-        // 더 강한 오크. 근육이 늘었다. 그뉵그뉵.
-        public override void Skill()
-        {
-            // 분노분노분노하는 스킬
-        }
+        // 흡혈박쥐다. 체력은 허접하지만 공격할때마다 피를 빨아먹으니 한방에 처리하도록 하자.
     }
-    public class EliteZombie : EliteMonster
+
+    public class lesserDemon : Monster
     {
-        // 더 강한 좀비. 물리면 디버프에 걸린다.
-        public override void Skill()
-        {
-            // 이 좀비는 무해하지 않고 물지 않지 않습니다.
-        }
+        // 레서 데몬. 비교적 튼튼하고 강하다. 하지만 특별한 능력은 없다.
     }
 }

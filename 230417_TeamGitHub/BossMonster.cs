@@ -37,4 +37,17 @@ namespace _230417_TeamGitHub
             // 용의 비늘은 모든 데미지를 99% 줄여서 받는다! 하지만 단 하나 있는 역린을 공격하면 10배의 데미지를 받는다!
         }
     }
+
+    public class CorruptedKnight : BossMonster
+    {
+        // 타락한 기사. 강하다. 정화하면 동료가 될지도?
+        public override void Skill() 
+        {
+            // 단순한 내려베기. 단순하지만 생전에 일평생 수련한 내려베기는 절대 무시할만한 공격이 아니다.
+        }
+        public override void Passive() 
+        {
+            // 타락해서 이성을 잃었다. 모든 신체능력이 상승된 대신 마력을 사용하지 못한다.
+        }
+    }
 }
