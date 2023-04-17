@@ -25,4 +25,16 @@ namespace _230417_TeamGitHub
             // 이것은 골렘의 외피입니다. 끔찍하게 튼튼하죠. 물리공격에 매우 높은 내성을 지닙니다.
         }
     }
+
+    public class RedDragon : BossMonster
+    {
+        public override void Skill()
+        {
+            // 퐈이야아아아아아아아아아아아! 굉장히 뜨거운 브레스. 광역공격이다.
+        }
+        public override void Passive()
+        {
+            // 용의 비늘은 모든 데미지를 99% 줄여서 받는다! 하지만 단 하나 있는 역린을 공격하면 10배의 데미지를 받는다!
+        }
+    }
 }
