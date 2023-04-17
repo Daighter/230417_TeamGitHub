@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _230417_TeamGitHub
 {
-    internal class Stage3_LavaLand
+    public class Stage3_LavaLand
     {
         // 배경 이미지 적용
         // 방 크기
@@ -18,4 +18,15 @@ namespace _230417_TeamGitHub
         // 용암석 구조물(파괴가능, 불가능)
         // 기믹 구조물 구현(함정, 퍼즐)_(추상)
     }
+
+    public class LavaLand_BasicRoom1 : Stage3_LavaLand
+    {
+        // 배경 이미지 적용
+        // 방 크기
+        // 땅 구현
+        // 용암땅(화상상태이상)
+        // 용암석 구조물(파괴가능, 불가능)
+    }
+
+
 }
